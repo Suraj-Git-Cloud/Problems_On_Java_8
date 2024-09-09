@@ -3,6 +3,8 @@ package com.streamapi;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+//Find Sum of Digits of a given Number using Stream API
+
 public class SumOfDigits {
 
 	public static void main(String[] args) {

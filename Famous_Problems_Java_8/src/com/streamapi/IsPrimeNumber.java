@@ -2,7 +2,11 @@ package com.streamapi;
 
 import java.util.stream.IntStream;
 
-public class IsPrimeNumber {
+
+//Find Wheather a given Number is Prime or Not using Stream API of Java 8
+
+
+public class IsPrimeNumber {				 
 
 	public static void main(String[] args) {
 

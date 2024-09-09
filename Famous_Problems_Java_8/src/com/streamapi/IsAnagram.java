@@ -3,8 +3,10 @@ package com.streamapi;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
-public class IsAnagram {
 
+//Find Weather Two Strings Are Anagrams or Not using Stream API of Java 8
+
+public class IsAnagram {				
 	public static void main(String[] args) {
 
 		String input1 = "teacher";

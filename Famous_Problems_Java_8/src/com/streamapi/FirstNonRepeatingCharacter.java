@@ -7,7 +7,9 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-public class FirstNonRepeatingCharacter {
+//Find the first non-repeating character in String using Stream API of Java 8
+
+public class FirstNonRepeatingCharacter {					
 
 	public static void main(String[] args) {
 

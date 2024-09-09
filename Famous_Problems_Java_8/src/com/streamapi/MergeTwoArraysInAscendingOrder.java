@@ -3,6 +3,8 @@ package com.streamapi;
 import java.util.Arrays;
 import java.util.stream.IntStream;
 
+//Merge give two arrays in ascending order using Stream API of Java 8
+
 public class MergeTwoArraysInAscendingOrder {
 
 	public static void main(String[] args) {
@@ -14,8 +16,8 @@ public class MergeTwoArraysInAscendingOrder {
 
 		System.out.println(result); // prints only the reference ex - [I@17f052a3
 
-		System.out.println(Arrays.toString(result)); // prints the elements of array ex - [1, 3, 4, 5, 7, 8, 9, 10, 12,
-														// 21, 38]
+		System.out.println(Arrays.toString(result)); 
+		// prints the elements of array ex - [1, 3, 4, 5, 7, 8, 9, 10, 12,21, 38]
 
 	}
 

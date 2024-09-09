@@ -6,7 +6,9 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-public class FrequencyOfCharacters {
+//Find the frequency of each character in String irrespective of case using Stream API of Java 8
+
+public class FrequencyOfCharacters {			
 
 	public static void main(String[] args) {
 
