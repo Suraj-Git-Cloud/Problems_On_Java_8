@@ -13,7 +13,7 @@ public class IsAnagram {
 		String input2 = "cheater";
 
 		System.out.println(" Given Two Strings Are Anagrams : " + isAnagram(input1, input2));
-
+		System.out.println(" Given Two Strings Are Anagrams : " + isAnagramJava7Approach(input1, input2));
 	}
 
 	public static Boolean isAnagram(String input1, String input2) {
@@ -34,5 +34,26 @@ public class IsAnagram {
 
 		return isAnagramOdEachOther;
 	}
+	
+	public static Boolean isAnagramJava7Approach(String input1, String input2) {
+
+		boolean isAnagramOfEachOther = false;
+		char[] charArray1 = input1.toCharArray();
+		char[] charArray2 = input2.toCharArray();
+
+		Arrays.sort(charArray1);
+		Arrays.sort(charArray2);
+
+		String output1 = String.valueOf(charArray1);
+		String output2 = String.valueOf(charArray2);
+		;
+
+		if (output1.equals(output2))
+			isAnagramOfEachOther = true;
+
+		return isAnagramOfEachOther;
+
+	}
+
 
 }
