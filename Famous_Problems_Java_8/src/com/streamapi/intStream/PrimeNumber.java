@@ -1,4 +1,4 @@
-package com.streamapi;
+package com.streamapi.intStream;
 
 import java.util.stream.IntStream;
 
@@ -6,7 +6,7 @@ import java.util.stream.IntStream;
 //Find Wheather a given Number is Prime or Not using Stream API of Java 8
 
 
-public class IsPrimeNumber {				 
+public class PrimeNumber {				 
 
 	public static void main(String[] args) {
 

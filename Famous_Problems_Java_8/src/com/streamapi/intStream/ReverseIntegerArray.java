@@ -1,4 +1,4 @@
-package com.streamapi;
+package com.streamapi.intStream;
 
 import java.util.Arrays;
 import java.util.stream.IntStream;

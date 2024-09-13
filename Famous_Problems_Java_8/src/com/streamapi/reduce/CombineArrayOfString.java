@@ -1,4 +1,4 @@
-package com.streamapi;
+package com.streamapi.reduce;
 
 import java.util.Arrays;
 import java.util.Optional;

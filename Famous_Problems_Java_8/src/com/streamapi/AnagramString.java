@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 //Find Weather Two Strings Are Anagrams or Not using Stream API of Java 8
 
-public class IsAnagram {				
+public class AnagramString {				
 	public static void main(String[] args) {
 
 		String input1 = "teacher";
